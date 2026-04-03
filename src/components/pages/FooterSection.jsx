@@ -25,14 +25,22 @@ function FooterSection({ umbrellaLogo, sectionReveal }) {
                     <rect x="3" y="6" width="18" height="12" rx="2" />
                     <path d="m5 8 7 5 7-5" />
                   </svg>
-                  unbrela@gmail.com
+                  umbrela@gmail.com
                 </span>
 
-                <span className="inline-flex items-center gap-2">
+                <span className="inline-flex items-start gap-2 pt-13">
                   <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
                     <path d="M6.7 4h3.2l1.4 3.6-1.8 1.8a14.5 14.5 0 005.3 5.3l1.8-1.8 3.6 1.4v3.2A2.4 2.4 0 0117.8 20C10.2 20 4 13.8 4 6.2A2.4 2.4 0 016.4 4z" />
                   </svg>
-                  +976 95524975
+                  <span className=''>
+                    <a href="tel:86566676" className="hover:text-[#7c9af2] transition-colors">86566676</a>
+                    <br/> 
+                    <a href="tel:95856000" className="hover:text-[#7c9af2] transition-colors">95856000</a>
+                    <br/>
+                    <a href="tel:99971015" className="hover:text-[#7c9af2] transition-colors">99971015</a>
+                    <br/>
+                    <a href="tel:95524975" className="hover:text-[#7c9af2] transition-colors">95524975</a>
+                  </span>
                 </span>
               </div>
             </div>

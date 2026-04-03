@@ -31,7 +31,7 @@ function ServiceSection({
         </motion.div>
 
         <motion.div className="lg:pr-4" initial={{ opacity: 0, x: 28 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, amount: 0.5 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.06 }}>
-          <motion.h2 className="m-0 text-xs font-medium leading-[1.3] tracking-[0.01em] text-[#7c9af2] md:text-[2.6rem] lg:text-[3.2rem] text-right" whileHover={{ letterSpacing: '0.02em' }} transition={{ duration: 0.25 }}>
+          <motion.h2 className="m-0 text-xs font-medium leading-[1.3] tracking-[0.01em] text-[#7c9af2] md:text-[2.6rem] lg:text-[3.2rem] text-right">
             Our Service
           </motion.h2>
           <motion.p className="text-justify mt-5 max-w-[auto] text-[1rem] leading-[1.62] text-[#ffffff]" initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.55, delay: 0.15 }}>

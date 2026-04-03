@@ -122,9 +122,22 @@ function SignupSection({ sectionReveal, onLoginClick, onSignupSuccess }) {
             </a>
           </div>
 
-          <div className="mt-5 h-px w-full bg-linear-to-r from-[#4f89ff] via-[#4f89ff]/30 to-transparent" />
+          <div className="mt-5 h-px w-full bg-linear-to-r from-transparent via-[#4f89ff]/10 to-transparent relative overflow-hidden">
+            <div className='absolute inset-0 bg-linear-to-r from-transparent to-transparent'/>
+            <motion.div
+              className='absolute top-1/2 -translate-y-1/2 w-20 h-20 bg-[#4f89ff] rounded-full shadow-lg shadow-[#4f89ff]/50 blur-md'
+              animate={{
+                left: ['0%', '100%', '0%']
+              }}
+              transition={{
+                duration: 3,
+                repeat: Infinity,
+                ease: 'easeInOut'
+              }}
+            />
+          </div>
         </div>
-      </div>  
+      </div>
     </motion.section>
   )
 }

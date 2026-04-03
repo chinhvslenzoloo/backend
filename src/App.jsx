@@ -9,6 +9,7 @@ import serviceIllustration from './assets/service.svg'
 import weAreIllustration from './assets/weare.svg'
 import networkIllustration from './assets/network.svg'
 import { BackgroundBeams } from './components/ui/background-beams'
+import { SmoothCursor } from './components/ui/smooth-cursor'
 import { motion } from 'motion/react'
 import { useEffect, useState } from 'react'
 import Header from './components/pages/Header'
@@ -113,6 +114,7 @@ function App() {
       className="relative min-h-screen w-full overflow-hidden px-6 pb-10 pt-6 text-left font-['Poppins','Segoe_UI',Tahoma,Geneva,Verdana,sans-serif] text-[#ffffff] md:px-10 md:pb-12 md:pt-8 lg:px-16"
     >
       <BackgroundBeams className="pointer-events-none fixed inset-0 z-0" />
+      <SmoothCursor />
 
       <div className="relative z-10">
         {activeView === 'landing' ? (
