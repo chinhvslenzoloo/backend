@@ -2,7 +2,7 @@ import axios from "axios";
 
 const baseURL =
   import.meta.env.VITE_API_URL ||
-  "https://frontend-production-fc88.up.railway.app/";
+  "https://frontend-production-fc88.up.railway.app/api";
 const client = axios.create({
   baseURL,
   withCredentials: true,
